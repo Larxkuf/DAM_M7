@@ -1,0 +1,421 @@
+body {
+  background-color: #0c1317;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.col-sm-1, .col-4, .col-7 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+.page-container {
+  margin: 0 auto;
+  max-width: 5000px;
+  max-height: 1000px;
+  background-color: #0c1317;
+}
+/* Para pantallas grandes, eliminar márgenes negativos */
+@media (min-width: 1801px) {
+  .page-container {
+      margin-left: 60px;
+      margin-right: 0px; 
+  }
+}
+/* Para pantallas medianas, ajustar márgenes */
+@media (min-width: 1401px) and (max-width: 1800px) {
+  .page-container {
+      padding: 20px;
+      margin-left: 0px;
+      margin-right: 0px; 
+      height: calc(100vh - 40px);
+  }
+}
+@media (max-width: 1400px) {
+  .page-container {
+      margin: 0;
+  }
+}
+
+
+/* ewe ewe    Esto es la la primera columna    wew ewe */
+
+.chat-column {
+  background-color: #202c33;
+  display: flex;
+  flex-direction: column;
+  max-width: 65px;
+  height: calc(100vh - 40px);
+}
+
+.chat-list {
+  flex-grow: 1; 
+  min-height: 700px; 
+  overflow-y: auto; 
+  background-color: #111b22; 
+}
+
+.nav-button {
+  width: 100%;
+  background: none;
+  border: none;
+  color: #20354a;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.nav-button:hover {
+  background-color: #2a3d48;
+  /*margin-left: 10px;
+  width: 45px;*/
+  border-radius: 30%;
+}
+.active-nav-button {
+  background-color: #2a3d48;
+  font-weight: bold;
+  margin-top: 5px;
+  /*
+    width: 50px;
+  margin-left: 8px;*/
+}
+
+.foto-setting {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  flex-grow: 1; 
+  margin-bottom: 15px;
+}
+.foto {
+  margin-left: 17px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  height: 32px; 
+  width: 32px; 
+  margin-top: -10px;
+}
+
+
+
+
+.chat-message {
+  background-color: #dcf8c6;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 60%;
+}
+.chat-message.received {
+  background-color: #ffffff;
+  margin-left: auto;
+}
+.img1{
+  height: 40px;
+  width: 40px; 
+
+}
+
+/* HOLA HOLA    Esto es la zona del chat, la columna    HOLA HOLA */
+
+/*esto es para la parte fija del la lista de chats.*/
+.custom-width {
+  max-width: 30%;
+  margin: 0; 
+}
+
+.chat-header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #111b22; 
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.searchBox1 {
+  padding: 0.5rem;
+  background-color: #111b22; 
+  position: sticky;
+  top: 50px;
+  z-index: 100;
+}
+.d-flex1 {
+  padding: 0.5rem;
+  background-color: #111b22; 
+  position: sticky;
+  top: 100px;
+  z-index: 100;
+}
+.img1{
+  height: 40px;
+  width: 40px; 
+
+}
+/*estps son los contactos o grupos*/
+/* Ajustar la lista de contactos */
+.list-group {
+  height: calc(100vh - 200px); 
+  overflow-y: auto;
+  background-color: #111b22;
+}
+
+.chats{
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 16px;
+  margin-top: -10px;
+}
+/*barra de desplazamiento*/
+::-webkit-scrollbar {
+  width: 5px;
+  padding: 5px;
+}
+::-webkit-scrollbar-track { 
+  background: #111b22; 
+}
+::-webkit-scrollbar-thumb {
+  background-color: #263741; 
+  border-radius: 5px; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #23323b; 
+}
+.settingsBtn{
+  margin-bottom: 10px;
+}
+.btn-light{
+  margin: 5px;
+  border-radius:15px; 
+}
+.btn-light:hover{
+  background-color: #23323b;
+  color: #8696A0;
+}
+.btn-light:focus {
+  background-color: #0A332C;
+  color: #02A879; 
+  outline: none; 
+}
+
+.boton{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+/*CONTACTO*/
+.list-group-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #111b22;
+  width: 490px;
+  margin: 0 auto;
+  position: relative;
+}
+.list-group-item::after {
+  content: "";
+  position: absolute;
+  top: 0; 
+  right: 5px; 
+  width: 85%; 
+  border-top: 1px solid #202C33; 
+}
+.list-group-item:hover{
+  background-color: #202C33;
+}
+.active-nav-list-group{
+  background-color: #2A3942;
+}
+
+.fotox {
+  border-radius: 50%; 
+  width: 50px; 
+  height:50px; 
+  object-fit: cover; 
+  margin-right: 15px; 
+  margin-left: -5px;
+}
+.d-flex.w-100.justify-content-between {
+  flex: 1; 
+}
+.small{
+  margin-bottom: 10px;
+}
+.nombre{
+  font-size: 18px;
+  margin-top: 5px;
+  color: #ffffff;
+}
+p{
+  margin-top: -2px;
+  color: #899ba4;
+  font-size: 14px;
+}
+small{
+  color: #899ba4;
+}
+.form-control{
+  background-color: #202C33; 
+  border: none;
+  margin-left: 5px;
+  width: 485px;
+  height: 35px;
+  font-weight:lighter;
+  margin-top: -10px;
+}
+.etiquetas button{
+  margin-bottom: -1px;
+  margin-top: -14px;
+  background: #202C33;
+  border: none;
+  color: #8696A0;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.etiquetas {
+  margin-left: 5px;
+}
+
+
+/* HOLA HOLA    Esto es la zona del chat donde escribes    HOLA HOLA */
+/*el chat*/
+.chat-messages {
+  height: calc(100vh - 170px); 
+  overflow-y: auto;
+  padding: 15px;
+  background-image: url('img/fondi.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  width: 1125px;
+
+}
+
+.chat-header{
+  width: 1125px;
+  background-color: #202C33;
+}
+.chat-header p{
+  color: #8696A0;
+  font-size: 13px;
+  margin-top: -5px;
+}
+.header{
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+}
+.header img{
+  width: 40px;
+  height: 40px;
+}
+.header h5{
+  font-size: 16px;
+  margin-top: 0px;
+  color: #ffffff;
+}
+
+.lupa{
+  width: 30px;
+  height: 30px;
+}
+
+
+.chat-footer {
+  display: flex;
+  align-items: center;
+  background-color: #202C33;
+  margin-top: 10px;
+  height: 60px;
+  width: 1125px;
+}
+.send{
+  margin-left: 5200px;
+}
+
+.dropdown {
+  position: relative;
+  margin-right: 20px;
+}
+.dropdown-menu {
+  display: none; 
+  position: absolute;
+  top: 0; 
+  left: -120px; 
+  z-index: 1000;
+  margin-top: 0; 
+  background-color: #233138; 
+  color: #ffffff;
+}
+.dropdown:hover .dropdown-menu {
+  display: block; 
+}
+
+.dropdown-item {
+  background-color: #233138; 
+  color: #ffffff;
+}
+
+.dropdown-item:hover {
+  background-color: #2b3c45; 
+  color: #ffffff; 
+}
+
+.dropdown2 {
+  position: relative;
+}
+
+.dropdown-menu2 {
+  display: none; 
+  position: absolute;
+  top: -150px;
+  right: -120px; 
+  z-index: 1000;
+  margin-top: 0; 
+  background-color: #233138; 
+  color: #ffffff;
+}
+.dropdown2:hover .dropdown-menu2 {
+  display: block; 
+}
+
+.dropdown-item2 {
+  background-color: #233138; 
+  color: #ffffff; 
+}
+
+.dropdown-item2:hover {
+  background-color: #2b3c45; 
+  color: #ffffff;
+}
+
+
+.form-control2{
+  background-color: #2d3d47; 
+  border: none;
+  margin-left: 5px;
+  width: 1005px;
+  height: 45px;
+  font-weight:lighter;
+  border-radius: 5px; 
+}
+.form-control2 {
+  margin-left: 5px;
+  padding-left: 10px; 
+  border: none; 
+}
+.send {
+  margin-left: 1000px;
+}
