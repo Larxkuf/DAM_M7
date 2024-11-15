@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carta>
+  <menu>
+    <nom>Entrants</nom>
+    <plat>
+      <nom>Stinger Supreme</nom>
+      <descripcio>Crujiente escorpión cubierto de queso cheddar y mayonesa de jalapeño.</descripcio>
+      <alergenos>Lácteos, huevo</alergenos>
+      <picante>🌶️🌶️</picante>
+      <imagen>img1.jpg</imagen>
+      <precio>137520 FG</precio>
+    </plat>
+    <plat>
+      <nom>Antz-in-Ya-Pantz</nom>
+      <descripcio>Nuggets de hormiga mezclada con chile y ajo, acompañada de salsa cítrica.</descripcio>
+      <alergenos>Posibles residuos de crustáceos y mariscos</alergenos>
+      <picante>🌶️🌶️🌶️</picante>
+      <imagen>img2.jpg</imagen>
+      <precio>160990,08 FG</precio>
+    </plat>
+    <plat>
+      <nom>Beastly Boar Bite</nom>
+      <descripcio>Con un sabor profundo y salvaje, cubierta de mermelada de cebolla y jalapeños. Ideal para los que buscan una experiencia intensa.</descripcio>
+      <alergenos>Ninguno específico</alergenos>
+      <picante>🌶️</picante>
+      <imagen>img3.jpg</imagen>
+      <precio>135210,21 FG</precio>
+    </plat>
+    <plat>
+      <nom>Gator Grub</nom>
+      <descripcio>Jugosa carne de cocodrilo marinada en especias caribeñas, cubierta con piña a la parrilla y mayonesa de coco. ¡Un bocado directo de los pantanos!</descripcio>
+      <alergenos>Coco, huevo</alergenos>
+      <picante>No</picante>
+      <imagen>img4.jpg</imagen>
+      <precio>110016 FG</precio>
+    </plat>
+    <plat>
+      <nom>Jumpin' Roo Burger</nom>
+      <descripcio>Carne magra de canguro asada al punto y acompañada con una salsa de remolacha y rúcula. Un salto en sabor.</descripcio>
+      <alergenos>Ninguno específico</alergenos>
+      <picante>No</picante>
+      <imagen>img5.jpg</imagen>
+      <precio>132936 FG</precio>
+    </plat>
+    <plat>
+      <nom>Rattlesmack</nom>
+      <descripcio>Carne de serpiente especiada con ajo y pimiento, servida con alioli picante. ¿Te atreves a domarla?</descripcio>
+      <alergenos>Huevo</alergenos>
+      <picante>🌶️🌶️🌶️🌶️</picante>
+      <imagen>img6.jpg</imagen>
+      <precio>149438,40 FG</precio>
+    </plat>
+    <plat>
+      <nom>Fast and Feathered</nom>
+      <descripcio>Carne de avestruz tierna y saludable, acompañada de un huevo de avestuz, espárragos asados y una reducción de vino tinto. ¡Tan rápido como nutritivo!</descripcio>
+      <alergenos>Sulfitos</alergenos>
+      <picante>No</picante>
+      <imagen>img7.jpg</imagen>
+      <precio>167957,76 FG</precio>
+    </plat>
+    <plat>
+      <nom>Buck Wild</nom>
+      <descripcio>Tierna carne de ciervo con cebollas caramelizadas y una compota de arándanos. Perfecta para paladares de caza mayor.</descripcio>
+      <alergenos>Ninguno específico</alergenos>
+      <picante>No</picante>
+      <imagen>img9.jpg</imagen>
+      <precio>84712,32 FG</precio>
+    </plat>
+    <plat>
+      <nom>Camel Kick</nom>
+      <descripcio>Carne de camello especiada con comino y pimentón, servida con una salsa de yogur y menta. Un viaje culinario al desierto.</descripcio>
+      <ALERGENOS>Lácteos</ALERGENOS>
+      <picante>No</picante>
+      <imagen>img8.jpg</imagen>
+      <precio>69310,08 FG</precio>
+    </plat>
+    <plat>
+      <nom>Stripe Hype</nom>
+      <descripcio>Rayada en sabor, con queso ahumado y rúcula. Un exótico giro de la sabana africana a tu plato.</descripcio>
+      <ALERGENOS>Lácteos</ALERGENOS>
+      <picante>No</picante>
+      <imagen>img10.jpg</imagen>
+      <precio>162090,24 FG</precio>
+    </plat>
+    <plat>
+      <nom>Capybara Craze</nom>
+      <descripcio>Deliciosa carne de capibara, acompañada de una salsa de aguacate y cilantro, y servida con cebollas rojas a la parrilla. Un bocado exótico y lleno de frescura.</descripcio>
+      <ALERGENOS>Lácteos (salsa de aguacate con crema)</ALERGENOS>
+      <picante>No</picante>
+      <imagen>img11.jpg</imagen>
+      <precio>178959,36 FG</precio>
+    </plat>
+    <plat>
+      <nom>Batty Burger</nom>
+      <descripcio>Carne de murciélago marinada con especias dulces y servida con una salsa de ciruelas ahumadas y rúcula. ¡Una combinación única y sabrosa!</descripcio>
+      <ALERGENOS>Posibles trazas de frutos secos (ciruelas ahumadas)</ALERGENOS>
+      <picante>🌶️🌶️🌶️</picante>
+      <imagen>img12.jpg</imagen>
+      <precio>115791,84 FG</precio>
+    </plat>
+  </menu>
+</carta>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freaky Feast</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header-section">
+    <h1>Freaky Feast</h1>
+    <p class="subtitle">Bite the bizarre, savor the strange!</p>
+    <button class="cybr-btn" onclick="scrollToMenu()">Menu
+        <span class="cybr-btn__glitch">Menú_</span>
+        <span class="cybr-btn__tag">R25</span>
+    </button>
+  </header>
+  <div class="menu-container"></div>
+  <script src="script.js"></script>
+  <script>
+    function scrollToMenu() {
+      document.querySelector('.menu-container').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
+
