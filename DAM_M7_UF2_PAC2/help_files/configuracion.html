@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración de TaskMaster</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Configuración de TaskMaster</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="instalacion.html">Instalación</a></li>
+            <li><a href="configuracion.html">Configuración</a></li>
+            <li><a href="uso.html">Uso de la Aplicación</a></li>
+            <li><a href="soporte.html">Soporte Técnico</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Configuración Inicial</h2>
+        <p>Después de instalar TaskMaster, sigue estos pasos para configurar la aplicación:</p>
+        <ol>
+            <li>Inicie TaskMaster y complete el asistente de configuración inicial.</li>
+            <li>Configure la conexión a la base de datos (si es necesario).</li>
+            <li>Personalice las preferencias de usuario, como el idioma y el tema.</li>
+        </ol>
+    </section>
+    <section>
+        <h2>Configuración de la Base de Datos</h2>
+        <p>TaskMaster soporta MySQL y PostgreSQL. Para configurar la base de datos:</p>
+        <ol>
+            <li>Abra el archivo de configuración <code>config/database.yml</code>.</li>
+            <li>Ingrese los detalles de la conexión (host, usuario, contraseña, nombre de la base de datos).</li>
+            <li>Guarde los cambios y reinicie TaskMaster.</li>
+        </ol>
+    </section>
+    <section>
+        <h2>Personalización de la Interfaz</h2>
+        <p>Puedes personalizar la interfaz de TaskMaster desde el menú <strong>Configuración > Apariencia</strong>.</p>
+        <ul>
+            <li><strong>Tema</strong>: Elige entre modo claro y oscuro.</li>
+            <li><strong>Idioma</strong>: Selecciona el idioma de la interfaz.</li>
+            <li><strong>Notificaciones</strong>: Configura cómo recibir notificaciones.</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 1643 TaskMaster. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
