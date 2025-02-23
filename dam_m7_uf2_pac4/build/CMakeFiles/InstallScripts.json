@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/dam_m7_uf2_pac4/dam_m7_uf2_pac4/build/cmake_install.cmake",
+		"E:/dam_m7_uf2_pac4/dam_m7_uf2_pac4/build/googletest/cmake_install.cmake",
+		"E:/dam_m7_uf2_pac4/dam_m7_uf2_pac4/build/googletest/googlemock/cmake_install.cmake",
+		"E:/dam_m7_uf2_pac4/dam_m7_uf2_pac4/build/googletest/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
