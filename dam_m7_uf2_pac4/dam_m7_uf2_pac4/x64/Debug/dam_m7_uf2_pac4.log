@@ -1,0 +1,5 @@
+﻿  cardgame.cpp
+E:\dam_m7_uf2_pac4\dam_m7_uf2_pac4\cardgame.cpp(25,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  test_cardgame.cpp
+E:\dam_m7_uf2_pac4\dam_m7_uf2_pac4\test_cardgame.cpp(1,10): fatal  error C1083: No se puede abrir el archivo incluir: 'gtest/gtest.h': No such file or directory
+  Generando código...
