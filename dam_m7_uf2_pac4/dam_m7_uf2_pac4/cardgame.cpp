@@ -4,11 +4,15 @@
 #include <string>
 #include <limits>
 #include "cardgame.h"
+#include <random>
 
 using namespace std;
 
 int draw_card() {
-    return rand() % 10 + 1;
+    static std::random_device rd;                      
+    static std::mt19937 gen(rd());                     // Motor Mersenne Twister para generar números pseudoaleatorios
+    static std::uniform_int_distribution<> dis(1, 10); // Distribución uniforme de 1 a 10
+    return dis(gen);                                   // Devuelve un número aleatorio entre 1 y 10
 }
 
 string check_guess(int user_guess, int card) {
