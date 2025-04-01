@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public int damage = 10; // Daño que causa la bala
+    public int damage = 10;
 
     private void OnCollisionEnter(Collision collision)
     {
-            if (collision.gameObject.CompareTag("Player")) // Verifica si impacta al jugador
+            if (collision.gameObject.CompareTag("Player"))
             {
                 CubeMovement player = collision.gameObject.GetComponent<CubeMovement>();
                 if (player != null)
@@ -15,7 +15,7 @@ public class Bullet : MonoBehaviour
                 }
             }
 
-            Destroy(gameObject); // Destruye la bala tras el impacto
+            Destroy(gameObject);
 
         
             if (collision.gameObject.CompareTag("Enemy"))
@@ -24,14 +24,14 @@ public class Bullet : MonoBehaviour
                 if (enemy != null)
                 {
                     enemy.TakeDamage(damage);
-                    Debug.Log("Enemigo golpeado"); // Imprime un mensaje de debu
+                    Debug.Log("Enemigo golpeado");
                 }
 
-                Destroy(gameObject); // Destruye la bala
+                Destroy(gameObject); 
             }
             else
             {
-                Destroy(gameObject, 3f); // Destruye la bala tras 3 segundos si no golpea nada
+                Destroy(gameObject, 3f); 
             }
         
 
