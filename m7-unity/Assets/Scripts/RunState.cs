@@ -4,7 +4,7 @@ using UnityEngine.AI;
 public class RunState : IenemyState
 {
     EnemyAI myEnemy;
-    private float runDistance = 10f; // Distancia a la que intentará huir
+    private float runDistance = 10f;
 
     public RunState(EnemyAI enemy)
     {
@@ -22,7 +22,6 @@ public class RunState : IenemyState
             myEnemy.navMeshAgent.isStopped = false;
         }
 
-        // Configurar velocidad
         myEnemy.navMeshAgent.speed = 3f;
         myEnemy.navMeshAgent.acceleration = 8f;
 
