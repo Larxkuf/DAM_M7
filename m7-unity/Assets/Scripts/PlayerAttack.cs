@@ -36,7 +36,6 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    // Busca el enemigo m�s cercano
     Transform FindClosestEnemy()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy"); 
