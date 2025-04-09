@@ -11,8 +11,7 @@ public class AlertState : IenemyState
         myEnemy = enemy;
     }
 
-    //Coloca la luz del enemigo a amarillo. Le hace girar 360 para buscar al jugador. Si no lo encuentra,
-    //vuelve al modo patrulla. Si lo encuentra en su radio de ataque, pasa al estado de ataque.
+ 
     public void UpdateState()
     {
         myEnemy.enemyColor.SetColor("_Color", Color.yellow);
@@ -42,16 +41,13 @@ public class AlertState : IenemyState
         currentRotationTime += Time.deltaTime;
     }
 
-    //No hay nada porque ya está en el modo alerta.
     public void GoToAlertState() { }
 
-    //Inicializa el método ataque si le atacan o detecta al enemigo.
     public void GoToAttackState()
     {
         myEnemy.currentState = myEnemy.attackState;
     }
 
-    //Inicializa el método patrulla si no encuentra al jugador.
     public void GoToPatrolState()
     {
         myEnemy.navMeshAgent.isStopped = false;
